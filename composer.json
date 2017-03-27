@@ -1,0 +1,41 @@
+{
+  "name": "aliyunapi/php-aliyun-open-api-dm",
+  "description": "aliyunsdk",
+  "keywords": [
+    "aliyun",
+    "aliyun sdk",
+    "dm"
+  ],
+  "type": "library",
+  "license": "Apache",
+  "support": {
+    "issues": "https://github.com/aliyunapi/php-aliyun-open-api-dm/issues",
+    "source": "https://github.com/aliyunapi/php-aliyun-open-api-dm"
+  },
+  "authors": [
+    {
+      "name": "Xu TL",
+      "email": "xutongle@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "aliyun\\dm\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "aliyun\\test\\dm\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
